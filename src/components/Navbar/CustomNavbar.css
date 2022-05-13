@@ -1,0 +1,71 @@
+.main-logo {
+    width: 100px;
+}
+
+.navbar-brand{
+    float: left;
+    padding-top: .5em !important;
+    margin-right: 5rem !important;
+    margin-left: 2rem;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end !important;
+    align-items: center;
+}
+
+.navbar .container-fluid{
+    display: inline-block !important;
+}
+
+.nav-link{
+    margin: auto;
+    float: left;
+}
+
+.search{
+    float: right !important;
+}
+
+.search-button{
+    color: white !important;
+    font-weight: 700 !important;
+    border-radius: 1rem !important;
+    border: 1px solid #B535F6 !important;
+    padding: 0.55em 2em 0.5em !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    background-color: #B535F6 !important;
+    margin-left: 0 !important;
+    font-size: 0.85rem !important;
+    letter-spacing: 1px;
+    float: right !important;
+}
+
+.search-button:hover{
+    color: #B535F6 !important;
+    background-color: transparent !important;
+    border: 1px solid #B535F6 !important;
+}
+
+.other-button{
+    color: white;
+    font-weight: 700 !important;
+    border-radius: 1rem !important;
+    border: 1px solid #54a11c !important;
+    padding: 0.55em 2em 0.5em !important;
+    font-size: .85rem !important;
+    letter-spacing: 1px !important;
+    text-decoration: none !important;
+    background-color: #54a11c !important;
+}
+
+.other-button:hover{
+    color: #54a11c !important;
+    background-color: transparent !important;
+    border: 1px solid #54a11c !important;
+}

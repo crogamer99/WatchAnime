@@ -1,0 +1,42 @@
+.scroll-tray{
+    height: 100%;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    animation: scroll-tray-hero 60s linear infinite;
+}
+
+.scroll-tray-image{
+    max-width: 150px;
+    height: 200px;
+    border-radius: 0.2rem;
+}
+
+.loading{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+html,
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.scroll-tray div{
+    margin-right: 20px;
+    margin-top: 10rem;
+    display: inline-block;
+}
+
+@keyframes scroll-tray-hero{
+    0%{
+        transform: translateX(0);
+    }
+    99.99%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
